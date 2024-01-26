@@ -102,6 +102,7 @@
     "typescript": "5.3.3",
     "vite": "5.0.6",
     "vite-plugin-checker": "0.6.2",
+    "vite-plugin-pwa": "^0.17.5",
     "workbox-build": "7.0.0",
     "workbox-core": "7.0.0",
     "workbox-precaching": "7.0.0"
@@ -297,6 +298,6 @@
       "workbox-core": "7.0.0",
       "workbox-precaching": "7.0.0"
     },
-    "hash": "3c2ba9b25fa1c567a60cd6acb4c4fd73e0e1e6714eb164026fe734219c368403"
+    "hash": "bfb668de3e782241be47d2266dfafed7ff7140e11f99abafe4fa80a806fd207c"
   }
 }

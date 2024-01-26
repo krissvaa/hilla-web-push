@@ -32,6 +32,16 @@ export const views: ViewRoute[] = [
       return;
     },
   },
+  {
+    path: 'notifications',
+    component: 'notifications-view',
+    title: 'Notifications',
+    icon: 'bell',
+    action: async (_context, _command) => {
+      await import('./views/notifications/notifications-view.js');
+      return;
+    },
+  },
 ];
 export const routes: ViewRoute[] = [
   {
